@@ -1,6 +1,6 @@
 package autotests.pages;
 
-import cloud.autotests.config.App;
+import autotests.config.App;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 

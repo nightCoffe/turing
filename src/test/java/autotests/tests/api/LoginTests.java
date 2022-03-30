@@ -1,9 +1,9 @@
 package autotests.tests.api;
 
-import cloud.autotests.config.App;
-import cloud.autotests.helpers.AllureRestAssuredFilter;
-import cloud.autotests.models.Credentials;
-import cloud.autotests.tests.BaseTest;
+import autotests.config.App;
+import autotests.helpers.AllureRestAssuredFilter;
+import autotests.models.Credentials;
+import autotests.tests.BaseTest;
 import io.qameta.allure.Story;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

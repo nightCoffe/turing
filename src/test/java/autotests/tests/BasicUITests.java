@@ -1,7 +1,7 @@
 package autotests.tests;
 
-import cloud.autotests.pages.JobsPage;
-import cloud.autotests.pages.MainPage;
+import autotests.pages.JobsPage;
+import autotests.pages.MainPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;

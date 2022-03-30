@@ -1,9 +1,9 @@
 package autotests.tests;
 
-import cloud.autotests.config.Project;
-import cloud.autotests.helpers.AllureAttachments;
-import cloud.autotests.helpers.DriverSettings;
-import cloud.autotests.helpers.DriverUtils;
+import autotests.config.Project;
+import autotests.helpers.AllureAttachments;
+import autotests.helpers.DriverSettings;
+import autotests.helpers.DriverUtils;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -24,7 +24,7 @@ public class BaseTest {
 
     @AfterEach
     public void addAttachments() {
-        if(WebDriverRunner.hasWebDriverStarted()) {
+        if (WebDriverRunner.hasWebDriverStarted()) {
             String sessionId = DriverUtils.getSessionId();
 
             AllureAttachments.addScreenshotAs("Last screenshot");
