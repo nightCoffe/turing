@@ -53,6 +53,18 @@ The test results can be found in:
 
 :arrow_right: [The launch with results](https://jenkins.autotests.cloud/job/turing/6/allure/)
 
+:arrow_right: [The launch Allure Report](https://qameta.io/allure-report/)
+
+#### Allure Report
++ Attachments
++ Various test types in one report
++ Nested Steps
++ BDD and Gherkin
++ Easy integration with custom tools
++ Filter and search
++ Pluggable System
++ Export in a format you love
+
 <p align="center">
   <img src="images/screenshot/allureReport.JPG">
 </p>
@@ -73,6 +85,20 @@ The test results can be found in:
 
 
 :arrow_right: [The launch with results](https://allure.autotests.cloud/project/1054/launches)
+
+:arrow_right: [The launch Allure Report](https://qameta.io/)
+
+#### Allure TestOps
+
++ A central hub for all your tests
++ Live documentation
++ Metrics and KPIs
++ Security
++ Analytics
++ Aggregation
++ Configuration
++ Performance
++ Integrations
 
 <p align="center">
   <img src="images/screenshot/allureTestOpsLaunches.JPG">
