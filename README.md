@@ -86,7 +86,7 @@ The test results can be found in:
 
 :arrow_right: [The launch with results](https://allure.autotests.cloud/project/1054/launches)
 
-:arrow_right: [The launch Allure Report](https://qameta.io/)
+:arrow_right: [The launch Allure TestOps](https://qameta.io/)
 
 #### Allure TestOps
 
