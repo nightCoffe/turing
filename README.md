@@ -1,7 +1,9 @@
 
 # The test automation project for https://www.turing.com/
+[Github](https://github.com/autotests-cloud/turing)
+
 <p align="center">
-  <img src="images/screenshot/hostegramDashboard.JPG">
+  <img src="images/screenshot/turingDashboard.JPG">
 </p>
 
 ___
@@ -27,30 +29,6 @@ ___
 
 ___
 
-### Run tests with filled remote properties:
-
-```bash
-gradle clean test
-```
-
-### Run tests without filled remote properties:
-
-```bash
-gradle clean test
--Denvironment=${ENVIRONMENT}
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
-```
-
-### Serve report:
-
-```bash
-allure serve build/allure-results
-```
-
-___
-
 ## Results
 
 The test results can be found in:
@@ -61,62 +39,56 @@ The test results can be found in:
 
 ### Jenkins
 
-[Jenkins job](https://jenkins.autotests.cloud/job/009-nightCoffe-webProject/)
+[Jenkins job](https://jenkins.autotests.cloud/job/turing/)
 
 <p align="center">
-  <img src="images/screenshot/jenkinsScreen.JPG">
+  <img src="images/screenshot/jenkinsTuring.JPG">
 </p>
 
 <p align="center">
-  <img src="images/screenshot/jenkinsScreen1.JPG">
+  <img src="images/screenshot/jenkinsTuringRun.JPG">
 </p>
 
 ### Allure Report
 
-
-:arrow_right: [The launch with results](https://jenkins.autotests.cloud/job/009-nightCoffe-webProject/11/allure/)
+:arrow_right: [The launch with results](https://jenkins.autotests.cloud/job/turing/6/allure/)
 
 <p align="center">
   <img src="images/screenshot/allureReport.JPG">
 </p>
 
-:arrow_right: [The launch with results](https://jenkins.autotests.cloud/job/009-nightCoffe-webProject/11/allure/#suites/44d1a197fbb6ad9fc22df4eb54d1e2ac/6b659ccc126834be/)
+<p align="center">
+  <img src="images/screenshot/allureSuites.JPG">
+</p>
 
 <p align="center">
-  <img src="images/screenshot/allureReport1.JPG">
+  <img src="images/screenshot/allureReportTrends.JPG">
+</p>
+
+<p align="center">
+  <img src="images/screenshot/allureReportTrends1.JPG">
 </p>
 
 ### Allure TestOps
 
+
+:arrow_right: [The launch with results](https://allure.autotests.cloud/project/1054/launches)
+
 <p align="center">
-  <img src="images/screenshot/allureTestOps2.JPG">
+  <img src="images/screenshot/allureTestOpsLaunches.JPG">
 </p>
 
 <p align="center">
-  <img src="images/screenshot/allureTestOps.JPG">
+  <img src="images/screenshot/allureTestOpsLaunchesTree.JPG">
 </p>
 
 <p align="center">
-  <img src="images/screenshot/allureTestOps1.JPG">
-</p>
-
-___
-
-## Video with test running in Allure Report
-
-Video the test run in Allure report.
-
-<p align="center">
-  <img src="images/video/hostegram.gif">
+  <img src="images/screenshot/allureTestOpsLaunchesTimeline.JPG">
 </p>
 
 ___
 
 ## Notifications in Telegram channel
-
-<p align="center">
-  <img src="images/screens/Telegram_failed_notification.PNG">
-</p>
 
 <p align="center">
   <img src="images/screenshot/telegramNotification.JPG">
